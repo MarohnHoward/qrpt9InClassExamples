@@ -13,3 +13,4 @@ console.log("senior and memeber works ", discountCalc(true, false, true))
 console.log("VetOrRes works", discountCalc(false, true, true))
 console.log("Members work", discountCalc(false, false, true))
 console.log("No discount works", discountCalc(false, false, false))
+
