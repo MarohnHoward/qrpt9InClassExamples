@@ -28,7 +28,7 @@ let firstEmployee = new Employee(
     8675309,
     "sadie.adler1899@gmail.com"
 )
-
+// this is to log an output of first employee 
 console.log(firstEmployee.toString())
 
 class Birb {
@@ -41,13 +41,14 @@ class Birb {
         this.canFly = canFly; 
     }
 }
-
+/** this is to start an array */
 let birbs: Array<Birb> = [
     new Birb("Toucan", true), 
     new Birb("Penguin", false),
     new Birb("Pidgeon", true),
     new Birb("Emu", false)
 ]
+
 
 birbs.forEach((item: Birb) => {
     console.log(item)
