@@ -1,0 +1,13 @@
+In this unit we add comments to existing code. And learn more about git and GitHub 
+
+// for single line 
+/* for block code */
+
+
+To push to your repo, you do the following commands 
+
+git add . 
+git commit -m " pushing code " 
+git push 
+
+be sure to include the dot(.) when adding and the double quotes around the message for the commit. 
